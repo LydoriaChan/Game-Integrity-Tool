@@ -1,8 +1,8 @@
-# 🎮 Game Integrity Dashboard
+# 🎮 Game Integrity Tool
 
 A high-performance, dark-themed utility for PC gamers and modders to backup and verify game file integrity. 
 
-Stop redownloading 100GB games just because one file is corrupted. With this tool, you can create a "Master Hash" of your clean game files and verify them in seconds whenever a crash occurs.
+Stop redownloading 100GB games just because one file is corrupted. With this tool, you can create a Hash of your clean game files and verify them in seconds whenever a crash occurs.
 
 ---
 

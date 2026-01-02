@@ -11,7 +11,6 @@ Stop redownloading 100GB games just because one file is corrupted. With this too
 * **🗂️ Library Auto-Detection:** Select your main Games folder once, and all your games appear in a convenient sidebar.
 * **⚡ High-Speed Verification:** Optimized 64KB chunked hashing to handle massive titles (RDR2, GTA V, etc.) without crashing your RAM.
 * **✅ Standardized Format:** Saves hashes in the universal `.md5` format (`hash *filename`).
-* **🛠️ Workflow Optimized:** The "Verify" button unlocks automatically the moment you finish generating a hash.
 * **🧵 Multi-Threaded:** The UI stays responsive and smooth while the background thread does the heavy lifting.
 * **📁 Clean Organization:** All checksum files are automatically stored in a `/Checksums` folder for you.
 
@@ -25,6 +24,7 @@ Stop redownloading 100GB games just because one file is corrupted. With this too
 3.  Select a game from the list on the left.
 4.  Click **Create Master Hash** to "fingerprint" your game.
 5.  If the game ever breaks, select it and click **Verify Integrity**.
+6.  Broken and/or missing files will be shown on logs
 
 ### For Developers (Python)
 If you want to run the source code:
@@ -47,15 +47,9 @@ If you want to run the source code:
 * **PyInstaller** - Executable Bundling
 
 ---
+🤝 Join the Project!
 
-## 🤝 Contributing
-
-Got an idea to make this tool better? Feel free to:
-1. Fork the project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+This tool is Public Domain. That means it belongs to you just as much as it belongs to me. If you have an idea to make it faster, sleeker, or more powerful, jump in!
 
 ---
 

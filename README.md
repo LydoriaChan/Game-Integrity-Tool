@@ -13,7 +13,8 @@ Stop redownloading 100GB games just because one file is corrupted. With this too
 * **✅ Standardized Format:** Saves hashes in the universal `.md5` format (`hash *filename`).
 * **🧵 Multi-Threaded:** The UI stays responsive and smooth while the background thread does the heavy lifting.
 * **📁 Clean Organization:** All checksum files are automatically stored in a `/Checksums` folder for you.
-<img width="1089" height="674" alt="image" src="https://github.com/user-attachments/assets/d3c32a4d-63eb-450c-96db-c86b92938730" />
+<img width="1094" height="699" alt="image" src="https://github.com/user-attachments/assets/534c7e33-ba73-4125-ab84-9e0c275e8cb0" />
+
 
 ---
 
@@ -22,9 +23,10 @@ Stop redownloading 100GB games just because one file is corrupted. With this too
 1.  Download `GameIntegrityTool.exe` from the [Releases](../../releases) tab.
 2.  Launch the app and click **Set Game Library Directory**.
 3.  Select a game from the list on the left.
-4.  Click **Create Master Hash** to "fingerprint" your game.
-5.  If the game ever breaks, select it and click **Verify Integrity**.
+4.  Click **Create Hash** to "fingerprint" your game.
+5.  If the game ever breaks, select it and click **Verify Using Local Hash **.
 6.  Broken and/or missing files will be shown on logs
+7.  For other hashes use **Select hash**
 
 ---
 
